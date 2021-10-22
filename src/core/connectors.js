@@ -1858,6 +1858,13 @@ const connectors = [{
 	],
 	js: 'connectors/rockandpop.cl.js',
 	id: 'rockandpopcl',
+}, {
+	label: 'Naxos Music Library',
+	matches: [
+		'*://*.naxosmusiclibrary.com/*',
+	],
+	js: 'connectors/naxosmusiclibrary.js',
+	id: 'naxosmusiclibrary',
 }];
 
 define(() => connectors);
